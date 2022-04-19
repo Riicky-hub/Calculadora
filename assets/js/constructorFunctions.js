@@ -1,7 +1,7 @@
 function Calculadora() {
     let display = document.querySelector('.display');
     // método
-    this.iniciar = function() {
+    this.iniciar = () => {
         cliqueBotoes();
         pressionaBotoes();
     };
