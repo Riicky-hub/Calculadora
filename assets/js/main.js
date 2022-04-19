@@ -4,6 +4,21 @@ function criaCalculadora() {
         btnClear: document.querySelector('.btn-clear'),
         inicia() {
             this.cliqueBotoes();
+            this.pressionaEnter();
+        },
+        pressionaEnter() {
+            this.display.addEventListener('keypress', (e) => {
+                if(e.keyCode === 13) {
+                    this.realizaConta();
+                }
+            });
+        },
+        pressionaDel() {
+            this.display.addEventListener('keypress', (e) => {
+                if(e.keyCode === 8) {
+                    this.deleteOne();
+                }
+            });
         },
         cliqueBotoes() {
             document.addEventListener('click', (e) => {
@@ -20,6 +35,7 @@ function criaCalculadora() {
                 if(el.classList.contains('btn-eq')) {
                     this.realizaConta();
                 }
+                this.display.focus();
             });
         },
         realizaConta() {
