@@ -1,58 +1,76 @@
 * {
-    box-sizing: border-box;
-    outline: none;
+  box-sizing: border-box;
+  outline: none;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    background: rgb(13, 106, 134);
-    font-family: sans-serif;
-    font-size: 1.1rem;
-    line-height: 1.5rem;
+  margin: 0;
+  padding: 0;
+  background: #0d6a86;
+  font-family: sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
 }
+
 .container {
-    max-width: 640px;
-    margin: 50px auto;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.603);
-    padding: 20px;
+  max-width: 330px;
+  margin: 50px auto;
+  background: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.603);
+  padding: 20px;
 }
-.title {
-    font-size: 1.5rem;
-    text-align: center;
-}
+
 .calculadora {
-    width: 65%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
+
 .display {
-    font-size: 2em;
-    width: 100%;
-    text-align: right;
+  font-size: 2em;
+  width: 100%;
+  text-align: right;
+  border: 2px solid black;
 }
+
 .btn {
-    width: 100%;
-    height: 4em;
-    font-size: 1em;
-    border: none;
-    background-color: #dfdfdf;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
+  width: 100%;
+  height: 4em;
+  font-size: 1em;
+  border: none;
+  background-color: #dfdfdf;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .btn:hover {
-    background-color: #c4c4c4;
+  background-color: #c4c4c4;
 }
+
+.btn-del {
+  background-color: #b91435;
+}
+.btn-del:hover {
+  background-color: #a3122f;
+}
+
+.btn-clear {
+  background-color: #da7f00;
+}
+.btn-clear:hover {
+  background-color: #f28d00;
+}
+
 .btn-eq {
-    background-color: rgb(13, 106, 134);
-    transition: all 0.3s ease-in-out;
+  background-color: #0d6a86;
 }
 .btn-eq:hover {
-    background-color: rgb(21, 135, 170);
+  background-color: #1587aa;
 }
+
 @media only screen and (max-width: 470px) {
-    .calculadora {
-        width: 90%;
-    }
+  .calculadora {
+    width: 100%;
+  }
 }
+
+/*# sourceMappingURL=style.css.map */

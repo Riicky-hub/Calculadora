@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: $backgroundBody;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+}
+.container {
+    max-width: 330px;
+    margin: 50px auto;
+    background: $backgroundBodyAlt;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.603);
+    padding: 20px;
+}

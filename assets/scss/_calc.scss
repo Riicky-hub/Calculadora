@@ -1,0 +1,45 @@
+.calculadora {
+    width: 100%;
+    margin: 0 auto;
+}
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    border: 2px solid black;
+}
+.btn {
+    width: 100%;
+    height: 4em;
+    font-size: 1em;
+    border: none;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: #c4c4c4;
+    }
+}
+.btn-del {
+    background-color: $btnDeleteHover;
+    &:hover {
+        background-color: $btnDelete;
+    }
+}
+.btn-clear {
+    background-color: $btnClear;
+    &:hover {
+        background-color: $btnClearHover;
+    }
+}
+.btn-eq {
+    background-color: $btnEqual;
+    &:hover {
+        background-color: $btnEqualHover;
+    }
+}
+@media only screen and (max-width: 470px) {
+    .calculadora {
+        width: 100%;
+    }
+}
