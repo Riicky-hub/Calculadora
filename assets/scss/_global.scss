@@ -2,26 +2,6 @@
     box-sizing: border-box;
     outline: none;
 }
-.header__back {
-    button {
-        position: absolute;
-        cursor: pointer;
-        padding: 10px 13px;
-        background-color: transparent;
-        border: 3px solid $backgroundBodyAlt;
-        color: $backgroundBodyAlt;
-        border-radius: 100%;
-        margin-left: 20px;
-        font-size: 1.5rem;
-        text-align: center;
-        transition: all 0.5s ease-in-out;
-        &:hover {
-            border-color: $backgroundBody;
-            background-color: $backgroundBodyAlt;
-            color: $backgroundBody;
-        }
-    }
-}
 body {
     margin: 0;
     padding: 0;

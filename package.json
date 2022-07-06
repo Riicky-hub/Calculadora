@@ -1,0 +1,25 @@
+{
+  "name": "calculadora",
+  "version": "2.0.0",
+  "description": "Calculadora 100% funcional",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass ./assets/scss/style.scss ./assets/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riicky-hub/calculadora.git"
+  },
+  "keywords": [],
+  "author": "Riicky-hub",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riicky-hub/calculadora/issues"
+  },
+  "homepage": "https://github.com/Riicky-hub/calculadora#readme",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "jquery": "^3.6.0",
+    "jquery-mask-plugin": "^1.14.16"
+  }
+}

@@ -7,12 +7,10 @@
     <title>Calculadora</title>
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/libs/aos/css/aos.css">
 </head>
 <body>
-    <div class="header__back">
-        <a href=""><button><i class="fa-solid fa-right-from-bracket"></i></button></a>
-    </div>
-    <section class="container">
+    <section class="container" data-aos="fade-in" data-aos-duration="1500">
         <table class="calculadora">
             <tr>
                 <td colspan="4"><input type="text" class="display"></td>
@@ -49,7 +47,10 @@
             </tr>
         </table>
     </section>
+    <script src="./assets/libs/aos/js/aos.js"></script>
+    <script src="./assets/libs/jquery/js/jquery.min.js"></script>
+    <script src="./assets/libs/jquery/plugins/mask/js/jquery.mask.min.js"></script>
     <script src="https://kit.fontawesome.com/efde86963f.js" crossorigin="anonymous"></script>
-    <script src="./assets/js/constructorFunctions.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
