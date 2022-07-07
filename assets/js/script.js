@@ -3,6 +3,7 @@ AOS.init();
 // calculadora
 jQuery(($) => {
     let input = $('.display');
+    input.mask('0');
     function botoes(){
         $(document).on('click', (e) => {
             const el = e.target;
