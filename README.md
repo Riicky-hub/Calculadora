@@ -7,7 +7,7 @@ Link para acessar o site - [Calculadora](https://riicky-hub.github.io/Calculador
 | Dev.Dependencies | Dependencies |
 |:-------------:|:-------------:|
 | SASS | jQuery |
-| ---- | jQuery Mask |
+| Jest | jQuery Mask |
 | ---- | AOS |
 
 ### Instalação

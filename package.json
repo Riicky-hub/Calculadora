@@ -4,7 +4,8 @@
   "description": "Calculadora 100% funcional",
   "main": "index.js",
   "scripts": {
-    "sass": "sass ./assets/scss/style.scss ./assets/css/style.css --watch"
+    "sass": "sass ./assets/scss/style.scss ./assets/css/style.css --watch",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
     "aos": "^2.3.4",
     "jquery": "^3.6.0",
     "jquery-mask-plugin": "^1.14.16"
+  },
+  "devDependencies": {
+    "jest": "^28.1.2"
   }
 }

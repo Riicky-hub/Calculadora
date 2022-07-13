@@ -1,5 +1,3 @@
-// AOS
-AOS.init();
 // calculadora
 jQuery(($) => {
     let input = $('.display');
@@ -28,4 +26,4 @@ jQuery(($) => {
         i.val(String(conta));
     }
     botoes();
-})
+});
